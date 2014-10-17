@@ -1,2 +1,3 @@
-xplorup.github.io
+Blog di XplorUp
 =================
+Appunti e riferimenti sul lavoro quotidiano
