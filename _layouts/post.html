@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="en">
+{% include head.html %}
+{% if site.dropcap %}{% if page.dropcap != false %}<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float: left; font-size: 4.875rem; line-height: 3.750rem; padding-top: 0.375rem; padding-right: 0.375rem; font-family:serif}}</style>{% endif %}{% endif %}
+<body class="post-template">
+{% if page.imagefeature %}{% include headerpostcover.html %}{% else %}{% include headerpostsimple.html %}{% endif %}
+    <article class="notepad-post-content post">
+        <div>
+            <div class="paddings">
+                {{ content }}
+            </div>
+        </div>
+    </article>
+{% assign tagsize = page.tags.size %}
+{% if tagsize != 0 %}
+    <div class="notepad-post-tag-list">
+      <div class="row">
+        <span class="cal-prefix"><i class="fa fa-tags"></i></span> Tagged with 
+        <span class="notepad-post-tags">
+        {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+        </span>
+      </div>
+    </div>
+{% endif %}
+    <div class="cf"></div>
+{% if site.share %}{% include share.html %}{% endif %}
+{% include author.html %}
+    <div class="cf"></div>
+{% if site.disqus_shortname and page.comments == true %}{% include disqus.html %}{% endif %}
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>

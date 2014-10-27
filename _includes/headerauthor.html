@@ -1,0 +1,21 @@
+    <header class="notepad-site-head notepad-author-page">
+        <div class="notepad-site-head-menu">
+            
+            {% include logo.html %}
+            {% include navigation.html %}
+
+        <div class="cf"></div>
+        </div>
+        {% if site.author_bg %}<div class="notepad-author-head-content" style="background-image: url({{ site.url }}/assets/img/headers/{{ site.author_bg }})">{% elsif site.header_bg %}<div class="notepad-author-head-content" style="background-image: url({{ site.url }}/assets/img/headers/{{ site.header_bg }})">{% else %}<div class="notepad-author-head-content">{% endif %}
+            <h1 class="notepad-blog-title">
+                <div class="notepad-author-page-avatar">
+                    {% assign postauthor = include.p_auth %}
+                    <img src="{{ site.url }}/assets/img/avatars/{{ postauthor.avatar }}" alt="{{ postauthor.name }}">
+                </div>
+                <span class="notepad-site-head-title-bg">
+                    <a href="{{ site.url }}/feed.xml">{{ include.p_postsize }} posts <i class="fa fa-rss"></i></a>
+                </span>
+            </h1>
+            <h2 class="notepad-blog-description">{{ postauthor.name }}</h2>
+        </div>
+    </header>

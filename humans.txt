@@ -1,0 +1,32 @@
+--- 
+--- 
+============================================
+   _  _                       _     _    
+   | /         /              /    /     
+   |     __   /   __    __   /    /   __ 
+  /|   /   ) /  /   ) /   ) /    /  /   )
+_/_|__/___/_/__(___/_/_____(____/__/___/_
+     /                            /      
+    /                            /       
+                                         
+=============================================
+Owner Name: Gabriele Campo
+Profile: http://about.me/gabriele.campo
+Version: 1.0
+Description: Non multa, sed multum
+=============================================
+
+/* TEAM */ 
+
+Chef:Gabriele Campo 
+Contact: gab [at] xplorup.com 
+Twitter: @xplorup 
+From:Milan, Italy 
+
+
+/* SITE */ 
+
+Last update: {{ site.time | date: '%F' }} 
+Language: Italian 
+Doctype: HTML5 
+IDE: Notepad++, Github Pages, Jekyll, Ruby

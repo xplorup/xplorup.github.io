@@ -1,0 +1,18 @@
+        {% if site.author_bg %}<div class="notepad-author-info" style="background-image: url({{ site.url }}/assets/img/headers/{{ site.author_bg }})">
+            <div class="bg-opacity"></div>{% elsif site.header_bg %}<div class="notepad-author-info" style="background-image: url({{ site.url }}/assets/img/headers/{{ site.header_bg }})">
+            <div class="bg-opacity"></div>{% else %}<div class="notepad-author-info">{% endif %}
+            <div class="row">
+                <section class="notepad-post-author small-12 columns">
+                    {% if page.author %}{% assign postauthor = page.author %}{% else %}{% assign postauthor = site.owner %}{% endif %}
+                    
+                    <img src="{{ site.url }}/assets/img/avatars/{{ postauthor.avatar }}" class="notepad-post-author-avatar" alt="{{ postauthor.name }}">
+                    
+                        <span class="author-label">Author</span>
+                        <h1><a href="{{ site.url }}/author/{{ postauthor.name }}" class="author-link-name">{{ postauthor.name }}</a></h1>
+                        <p><a href="mailto:{{ postauthor.email }}" class="author-email">{{ postauthor.email }}</a></p>
+                    
+                        {% if postauthor.description %}<p>{{ postauthor.description }}</p>{% endif %}
+                    
+                </section>
+            </div>
+        </div>

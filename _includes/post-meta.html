@@ -1,0 +1,13 @@
+{% if page.author %}{% assign postauthor = page.author %}{% else %}{% assign postauthor = site.owner %}{% endif %}
+<span class="notepad-index-post-author">
+    by <strong><a href="{{ site.url }}/author/{{ postauthor.name }}">{{ postauthor.name }}</a></strong>
+</span>
+{% if page.categories.size > 0 %} <span class="simple-view-cat-list"><span class="cats-loop"><span class="cat-prefix">in</span> {% for cat in page.categories %}<span class="cat-link"> <a href="{{ site.url }}/categories/index.html#{{ cat | cgi_encode }}" title="Posts in category {{ cat | capitalize }}">{{ cat | capitalize }}</a> </span>{% unless forloop.last %}{% endunless %}{% endfor %}</span></span>{% endif %}
+<br><br>
+<span class="cal-prefix"><i class="fa fa-calendar"></i></span>
+<strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong>
+{% if page.modified %}{% assign modifiedtime = page.modified | date: "%Y%m%d" %}{% assign posttime = page.date | date: "%Y%m%d" %}
+{% if modifiedtime != posttime %} ( upd <strong><time datetime="{{ page.modified | date_to_xmlschema }}">{{ page.modified | date: "%d %b %Y" }}</time></strong> ){% endif %}{% endif %}
+
+{% if page.location %}&nbsp;<a href="https://www.google.com/maps/place/{% if page.locationgps %}{{ page.locationgps }}{% else %}{{ page.location}}{% endif %}" target="_blank"><i class="fa fa-map-marker"></i> {{ page.location }}</a>{% endif %}</p>
+{% if page.description %}<p><strong><i>&quot;{{ page.description }}&quot;</i></strong></p>{% endif %}

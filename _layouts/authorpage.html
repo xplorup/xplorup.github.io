@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+{% include head.html %}
+<body class="author-template">
+
+{% assign currauth = page.author %}
+
+{% assign postsize = 0 %}
+{% for post in site.posts %}
+{% if post.author.name == currauth.name %}{% assign postsize = postsize | plus:1 %}{% endif %}
+{% endfor %}
+
+{% include headerauthor.html p_auth = page.author p_postsize = postsize %}
+
+<main class="notepad-content" role="main">
+{% for post in site.posts%}
+{% if post.author.name == currauth.name %}
+{% if post.modified %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}{% endif %}
+    <article class="animated-post notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <span class="day">
+                        {{ post.date | date: "%d" }}
+                    </span>
+                    <span class="month-year">
+                        {{ post.date | date: "%B %Y" }}
+                    </span>
+                    {% if post.modified %}{% if modifiedtime != posttime %}
+                    <span class="month-year">
+                        <br>Updated on
+                    </span>
+                    <time datetime="{{ post.modified | date_to_xmlschema }}">
+                    <span class="month-year">
+                        {{ post.modified | date: "%d %B %Y" }}
+                    </span>
+                    {% endif %}{% endif %}
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-9 end columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>{{ post.content | strip_html | truncatewords:30 }} &nbsp; </p>
+                <div><a href="{{ site.url }}{{ post.url }}" class="notepad-post-read-more">Read more</a></div>
+            </section>
+        </div>
+    </article>
+{% endif %}
+{% endfor %}
+</main>
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>
