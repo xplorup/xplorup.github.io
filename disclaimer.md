@@ -2,8 +2,7 @@
 layout: page
 permalink: /disclaimer/
 title: Disclaimer
-tags: 
-  - policy
+tags: [policy, disclaimer]
 published: true
 ---
 # Italiano #
@@ -13,6 +12,8 @@ La policy è valida dal 22 ottobre 2014
 2. Questo blog non accetta alcuna forma di pubblicità, tramite sponsor o inserzioni a apagamento. Quanto scritto è per i miei scopi personali. In ogni caso potrei essere influenzato dalle mie conoscenze ed esperienze culturali, lavorative, religiose, politiche.
 3. Il proprietario di questo blog non riceve alcun compenso per esporre opinioni su prodotti, servizi siti web ed argomenti similari. I punti di vista e le opinioni espresse sono solamente del proprietario del blog. Se apparissi esperto di un certo argomento o prodotto o servizio, appoggerei prodotti o servizi basandomi sulla mia esperienza e conoscenza. Ogni pubblicità, statistica, citazione od altro tipo di informazione riguardo a prodotti o servizi deve essere verificata presso il rispettivo produttore o il fornitore.
 4. Questo blog non contiene argomenti che possano presentare alcun tipo di conflitto di interesse.
+5. Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità. Pertanto non può essere considerato in alcun modo un prodotto editoriale ai sensi della Legge. n. 62 del 2001.
+6. Tutti i contributi riportati si intendono essere dei rispettivi proprietari.
 
 # English #
 This policy is valid from 22 October 2014

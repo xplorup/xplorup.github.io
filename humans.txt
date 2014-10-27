@@ -20,13 +20,14 @@ Description: Non multa, sed multum
 
 Chef:Gabriele Campo 
 Contact: gab [at] xplorup.com 
-Twitter: @xplorup 
+Twitter: @xplorup
+GitHub: @xplorup
 From:Milan, Italy 
 
 
 /* SITE */ 
 
-Last update: {{ site.time | date: '%F' }} 
+Last update: 22 Oct 2014
 Language: Italian 
 Doctype: HTML5 
 IDE: Notepad++, Github Pages, Jekyll, Ruby
