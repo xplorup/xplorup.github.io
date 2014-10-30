@@ -25,7 +25,7 @@ La **seconda** esigenza è altrettanto pratica. Studiare soluzioni tecnologiche 
 ## Qualche annotazione
 Sul ruolo educativo o addirittura sociale di questo blog non conterei molto. Durante la mia carriera lavorativa mi imbatto e mi sono sempre imbattuto in esperti degni di questo nome: il contributo che posso portare io non è paragonabile a quello di tali autorevoli voci. Quindi difficilmente in questo blog ci sarà qualcosa di originale; al massimo ci sarà qualche rielaborazione, utile a qualcuno solo per caso (e comunque a suo rischio e pericolo).
 
-Cercherò di segnalare, ovunque posso, le fonti che ispirano i miei post. In caso di mia accidentale dimenticanza, invito chiunque a segnalarmele (al momento via <a href="mailto:{{site.owner.email}}" class="author-email">email</a> : provvederò a renderle più esplicite. A scanso di equivoci, dichiaro qui che tutti i contributi riportati si intendono essere dei rispettivi proprietari. Altri dettagli più formali si possono trovare sul [disclaimer][disclaimer].
+Cercherò di segnalare, ovunque posso, le fonti che ispirano i miei post. In caso di mia accidentale dimenticanza, invito chiunque a segnalarmele (al momento via <a href="mailto:{{site.owner.email}}" class="author-email">email</a>) : provvederò a renderle più esplicite. A scanso di equivoci, dichiaro qui che tutti i contributi riportati si intendono essere dei rispettivi proprietari. Altri dettagli più formali si possono trovare sul [disclaimer][disclaimer].
 
 Il blog è ad oggi - ottobre 2014 - in lingua italiana, con ovvio ampio uso di espressioni inglesi in quanto lingua franca dell'informatica. Un passo alla volta cercherò di scrivere testi interamente in inglese.
 
