@@ -133,7 +133,7 @@ header, main, footer {
             width: auto;
             height: auto; }
             .notepad-blog-menu ul li a:hover {
-              border-bottom: 0.1875rem solid #711123; } }
+              border-bottom: 0.1875rem solid #AB1A35; } }
 
 .notepad-site-head .notepad-site-head-menu {
   background: #ffffff; }
@@ -271,7 +271,7 @@ header, main, footer {
         -webkit-transition: color .3s;
         transition: color .3s; }
       .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a:hover {
-        color: #711123; }
+        color: #AB1A35; }
     @media only screen and (min-width: 40.063em) {
       .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
         text-align: left;
@@ -302,7 +302,7 @@ header, main, footer {
         -webkit-transition: color .3s;
         transition: color .3s; }
         .notepad-content .notepad-index-post .notepad-index-post-author a:hover, .notepad-content .notepad-index-post .notepad-index-post-author a:active, .notepad-content .notepad-index-post .notepad-index-post-author a:focus {
-          color: #711123; }
+          color: #AB1A35; }
       .notepad-content .notepad-index-post .notepad-index-post-author .notepad-index-post-author-thumb {
         width: 2.1875rem;
         height: 2.1875rem;
@@ -328,7 +328,7 @@ header, main, footer {
         -webkit-transition: color .3s;
         transition: color .3s; }
         .notepad-content .notepad-index-post .notepad-index-post-categories a:hover, .notepad-content .notepad-index-post .notepad-index-post-categories a:active, .notepad-content .notepad-index-post .notepad-index-post-categories a:focus {
-          color: #711123; }
+          color: #AB1A35; }
       .notepad-content .notepad-index-post .notepad-index-post-categories .notepad-index-post-categories-thumb {
         width: 2.1875rem;
         height: 2.1875rem;
@@ -358,7 +358,7 @@ header, main, footer {
       width: 60%;
       border-radius: 0.125rem; }
       .notepad-content .notepad-index-post .notepad-post-read-more:hover {
-        background-color: #711123; }
+        background-color: #AB1A35; }
     @media only screen and (min-width: 40.063em) {
       .notepad-content .notepad-index-post .notepad-post-read-more {
         width: auto;
@@ -429,8 +429,8 @@ nav.pagination {
     border: 0.125rem solid #000; }
   nav.pagination .newer-posts:hover,
   nav.pagination .older-posts:hover {
-    border: 0.125rem solid #711123;
-    color: #711123; }
+    border: 0.125rem solid #AB1A35;
+    color: #AB1A35; }
   nav.pagination .newer-posts.faded,
   nav.pagination .older-posts.faded {
     color: gray;

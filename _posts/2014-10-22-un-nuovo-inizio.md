@@ -8,7 +8,7 @@ author:
     name:    Gabriele
     avatar:  gab.jpg
     email:   gab (at) xplorup.com
-    description: Freelance programmer, web application designer/developer, consultant, and entrepeneur.
+    description: Freelance programmer, web application designer/developer, consultant and entrepeneur.
 ---
 Questo è un nuovo blog che tratta di tecnologia, in particolare di software: dall'idea al progetto, dal prototipo alla soluzione. E' un pò il diario di bordo della quotidiana **esplorazione** nel *mare magnum* dell'informatica. Il nome [XplorUp][about] banalmente viene da questa idea.
 
